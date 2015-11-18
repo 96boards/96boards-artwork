@@ -1,20 +1,3 @@
 #!/usr/bin/make -f
 %:
 	dh $@
-
-override_dh_clean:
-	rm -f build-stamp
-	dh_clean
-
-override_dh_auto_build:
-	$(MAKE) DESTDIR=$(CURDIR)/debian/tmp
-
-	for d in $$(find $(CURDIR)/debian/96boards-icon-theme/usr/share/icons -mindepth 2 -maxdepth 2 -type d) ; do \
-		(cd $$d; for c in *; do /usr/lib/icon-naming-utils/icon-name-mapping -c $$c; done); \
-	done
-
-override_dh_install:
-	# Make lintian happy by not installing extra copyright files.
-	find $(CURDIR)/debian/*/ -name "COPYING" -delete
-
-	dh_install --fail-missing

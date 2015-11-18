@@ -2,40 +2,17 @@ Source: 96boards-artwork
 Section: x11
 Priority: optional
 Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
-Build-Depends: debhelper (>= 9),
-               icon-naming-utils,
-               intltool
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 Vcs-Git: https://github.com/rsalveti/96boards-artwork.git
 Homepage: https://github.com/rsalveti/96boards-artwork
 
 Package: 96boards-artwork
 Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk2-engines-murrine,
-         libnewt0.52 (>= 0.52.11),
-         96boards-lxpanel-icons,
-         96boards-icon-theme,
-         dmz-cursor-theme,
+Depends: linaro-artwork,
          ${misc:Depends}
 Description: artwork for 96Boards
  Artwork for 96Boards, contained the wallpaper and others specific images
  and logos.
  .
  This package contains theme of 96Boards.
-
-Package: 96boards-icon-theme
-Architecture: all
-Depends: hicolor-icon-theme,
-         gnome-icon-theme,
-         gnome-icon-theme-symbolic,
-         ${misc:Depends}
-Description: icon theme for 96Boards
- This package contains a specific icon theme for 96Boards.
-
-Package: 96boards-lxpanel-icons
-Architecture: all
-Depends: ${misc:Depends}
-Description: panel specific icons for 96Boards artwork
- This package contain specific lxpanel icons for 96Boards theme.

@@ -1,3 +1,10 @@
+96boards-artwork (0.6) UNRELEASED; urgency=medium
+
+  * Simplifying packaging to only provide the extra wallpaper, and depend on
+    linaro-artwork which now provides the common artwork pieces
+
+ -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Wed, 18 Nov 2015 14:50:30 -0200
+
 96boards-artwork (0.5) jessie; urgency=medium
 
   * debian/control: adding missing dependency on gtk2-engines
