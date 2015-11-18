@@ -1,4 +1,4 @@
-96boards-artwork (0.6-0linaro1) UNRELEASED; urgency=medium
+96boards-artwork (0.6-0linaro1) jessie; urgency=medium
 
   * Simplifying packaging to only provide the extra wallpaper, and depend on
     linaro-artwork which now provides the common artwork pieces
