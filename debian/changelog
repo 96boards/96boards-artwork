@@ -1,0 +1,38 @@
+96boards-artwork (0.6-0linaro1) UNRELEASED; urgency=medium
+
+  * Simplifying packaging to only provide the extra wallpaper, and depend on
+    linaro-artwork which now provides the common artwork pieces
+
+ -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Wed, 18 Nov 2015 14:50:30 -0200
+
+96boards-artwork (0.5) jessie; urgency=medium
+
+  * debian/control: adding missing dependency on gtk2-engines
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Thu, 29 Oct 2015 03:43:22 -0200
+
+96boards-artwork (0.4) jessie; urgency=medium
+
+  * debian/control: depend on dmz-cursor-theme
+  * Changing cursor theme to DMZ-White
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Wed, 28 Oct 2015 15:57:43 -0200
+
+96boards-artwork (0.3) jessie; urgency=medium
+
+  * Removing update-alternatives logic for desktop-background,
+    96boards-default-settings should be using the direct path instead
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Wed, 28 Oct 2015 13:07:07 -0200
+
+96boards-artwork (0.2) jessie; urgency=medium
+
+  * Adding wallpaper with 96Boards branding
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Tue, 27 Oct 2015 22:14:46 -0200
+
+96boards-artwork (0.1) jessie; urgency=medium
+
+  * Initial upload
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Tue, 27 Oct 2015 19:16:01 -0200

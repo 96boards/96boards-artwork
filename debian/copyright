@@ -1,0 +1,9 @@
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat
+Upstream-Name: 96Boards Artwork
+Upstream-Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+
+Files: *
+Copyright: Copyright (C) 2015 Linaro
+License: GPL-2+
+ On Debian systems the full text of the GNU General Public License can be found
+ in the `/usr/share/common-licenses/GPL-2' file.
